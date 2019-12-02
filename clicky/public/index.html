@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
   <title>Clicky Game</title>
 </head>
@@ -19,38 +23,44 @@
 <body>
 
   <div id="root">
-<div>
-  <div class="navbar">
-  
-    
-      <ul class="image"><a href="/home">Clicky Game</a>
-      </ul>
-      <ul class="image">Click an image to begin!</ul>
-      <ul class="image">
-        "Score: 0" | "Top Score: 0"
-      </ul>
-    
-  </div>
-  
-  <div class="jumbotron">
-    <h1>Clicky Game!</h1>
-    <h2>Click on an image to earn points, but don't click on any more than once!
-    </h2>
-  </div>
-
-  <div class="pictures">
-    <img src="images/dog1.jpg" height="400"> <img src="images/dog2.jpg" height="400"> <img src="images/dog3.jpg" height="400"> <br> <img src="images/dog4.jpg" height="400"> 
-    <img src="images/dog5.jpg" height="400"> <img src="images/dog6.jpg" height="400"> <img src="images/dog7.jpg" height="400"> 
-    <img src="images/dog8.jpg" height="400"> <br> <img src="images/dog9.jpg" height="400"> <img src="images/cat10.jpg" height="400">
-  </div>
+    <div>
+      <div class="navbar">
 
 
-</div>
+        <ul class="begin"><a href="/home">Clicky Game</a>
+        </ul>
+        <ul class="begin">Click an image to begin!</ul>
+        Score: <ul id="totalScore"></ul> Top Score: <ul id="topScore"></ul>
+
+
+      </div>
+
+      <div class="jumbotron">
+        <h1>Clicky Game!</h1>
+        <h2>Click on an image to earn points, but don't click on any more than once!
+        </h2>
+      </div>
+
+      <div class="pictures">
+        <button class="dog1"><img src="images/dog1.jpg" height="400"></button>
+        <button class="dog2"><img src="images/dog2.jpg" height="400"></button>
+        <button class="dog3"><img src="images/dog3.jpg" height="400"></button> <br>
+        <button class="dog4"><img src="images/dog4.jpg" height="400"></button>
+        <button class="dog5"><img src="images/dog5.jpg" height="500" width="500"></button>
+        <button class="dog6"><img src="images/dog6.jpg" height="500" width="450"></button>
+        <button class="dog7"><img src="images/dog7.jpg" height="400"></button>
+        <button class="dog8"><img src="images/dog8.jpg" height="450" width="500"></button>
+        <button class="dog9"> <img src="images/dog9.jpg" height="400"></button>
+        <button class="cat10"> <img src="images/cat10.jpg" height="400"></button>
+      </div>
+
+
+    </div>
 
 
 
 
-
+    <script src="./score.js"></script>
   </div>
 
 
