@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/clickygame/static/css/main.52caf570.chunk.css",
+    "main.js": "/clickygame/static/js/main.c4206f8e.chunk.js",
+    "main.js.map": "/clickygame/static/js/main.c4206f8e.chunk.js.map",
+    "runtime-main.js": "/clickygame/static/js/runtime-main.24884677.js",
+    "runtime-main.js.map": "/clickygame/static/js/runtime-main.24884677.js.map",
+    "static/js/2.3907fedb.chunk.js": "/clickygame/static/js/2.3907fedb.chunk.js",
+    "static/js/2.3907fedb.chunk.js.map": "/clickygame/static/js/2.3907fedb.chunk.js.map",
+    "index.html": "/clickygame/index.html",
+    "precache-manifest.004ec01cbfb32a22ca5880b178e6626e.js": "/clickygame/precache-manifest.004ec01cbfb32a22ca5880b178e6626e.js",
+    "service-worker.js": "/clickygame/service-worker.js",
+    "static/css/main.52caf570.chunk.css.map": "/clickygame/static/css/main.52caf570.chunk.css.map",
+    "static/media/cat10.jpg": "/clickygame/static/media/cat10.ca0c356b.jpg",
+    "static/media/dog1.jpg": "/clickygame/static/media/dog1.22200a47.jpg",
+    "static/media/dog2.jpg": "/clickygame/static/media/dog2.44c9d898.jpg",
+    "static/media/dog3.jpg": "/clickygame/static/media/dog3.8434ea48.jpg",
+    "static/media/dog4.jpg": "/clickygame/static/media/dog4.31a9bce6.jpg",
+    "static/media/dog5.jpg": "/clickygame/static/media/dog5.6218082b.jpg",
+    "static/media/dog6.jpg": "/clickygame/static/media/dog6.d15f9dbf.jpg",
+    "static/media/dog7.jpg": "/clickygame/static/media/dog7.b8297d4e.jpg",
+    "static/media/dog8.jpg": "/clickygame/static/media/dog8.391aecad.jpg",
+    "static/media/dog9.jpg": "/clickygame/static/media/dog9.a5e7fab4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24884677.js",
+    "static/js/2.3907fedb.chunk.js",
+    "static/css/main.52caf570.chunk.css",
+    "static/js/main.c4206f8e.chunk.js"
+  ]
+}
